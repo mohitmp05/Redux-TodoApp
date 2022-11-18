@@ -1,0 +1,16 @@
+#brand{
+  padding-top: 75px;
+  padding-left: 75px;
+  box-sizing: border-box;
+}
+
+#form{
+  padding-top: 100px;
+  padding-left: 50px;
+  padding-right: 80px;
+  box-sizing: border-box;
+}
+
+#container{
+  width: 75%;
+}

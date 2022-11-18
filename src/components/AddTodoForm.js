@@ -11,8 +11,9 @@ const AddTodoForm = () => {
 		event.preventDefault();
 		dispatch(addTodo({
 			title: value,
-		}))
+		}));
 		console.log('user entered: ' + value);
+		setValue('');
 	};
 
 	return (
@@ -26,8 +27,8 @@ const AddTodoForm = () => {
 				onChange={(event) => setValue(event.target.value)}
 			></input>
 
-			<button type='submit' className='btn btn-primary mb-2'>
-				Submit
+			<button type='submit' className='btn mb-2' style={{backgroundColor: '#6C63FF', color:'white'}}>
+				Add Task
 			</button>
 		</form>
 	);
